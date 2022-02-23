@@ -514,7 +514,8 @@ a{
   border-radius: 20px;
   -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
-  margin: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   font-family: 'roboto', sans-serif;
   font-weight: bold;
   display: -webkit-box;
@@ -548,11 +549,11 @@ a{
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  left: 85%;
+  left: 82%;
 }
 
 .container:hover {
-  left: 74%;
+  left: 70%;
 }
 
 .slide-button {
