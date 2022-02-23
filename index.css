@@ -164,7 +164,6 @@ li > p {
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
 }
-
 li > span {
   color: white;
   background-color: #9356dc;
@@ -173,12 +172,12 @@ li > span {
   top: 10px;
   border-radius: 50%;
   width: 30px;
-  height: 30px;
+  height: 33px;
   padding: 10px;
   border: 3px solid transparent;
   color: white;
   text-align: center;
-  font: 15px Arial, sans-serif;
+  font: 16px Arial, sans-serif;
   font-weight: bold;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
