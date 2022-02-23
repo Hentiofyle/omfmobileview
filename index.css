@@ -30,7 +30,7 @@ header {
           align-items: center;
 }
 
-.logo {
+img.logo {
   max-width: 75%;
   margin-top: 10px;
   padding: 10px;
@@ -70,7 +70,7 @@ section.hero {
 i.fa-location-dot {
   padding: 15px;
   margin-top: 1.6px;
-  margin-left: -4px;
+  margin-left: -40px;
 }
 
 div.introduction {
@@ -80,7 +80,7 @@ div.introduction {
 }
 
 .introduction-body {
-  width: 80%;
+  width: 85%;
   margin-left: 30px;
   padding-top: 10px;
   padding-bottom: 50px;
@@ -89,13 +89,13 @@ div.introduction {
 .introduction-body > h1 {
   font-weight: bold;
   font-family: 'roboto', sans-serif;
-  font-size: 35px;
+  font-size: 37px;
 }
 
 .introduction-body > h3 {
   font-weight: 400;
   font-family: 'roboto', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 0;
 }
 
