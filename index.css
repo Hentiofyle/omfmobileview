@@ -526,6 +526,7 @@ a{
   line-height: 1.8;
   -webkit-animation: dish 3s;
           animation: dish 3s;
+   width:100%;
 }
 
 .dish-title > p {
@@ -551,7 +552,7 @@ a{
 }
 
 .container:hover {
-  left: 65%;
+  left: 74%;
 }
 
 .slide-button {
@@ -566,7 +567,7 @@ a{
 }
 
 .slide-button:hover .fas {
-  width: 60px;
+  width: 50px;
   display: block;
 }
 
