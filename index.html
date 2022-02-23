@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;700&family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;700&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,700&family=Shrikhand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/762d54be4e.js" crossorigin="anonymous"></script>
+    <link href="index.css" rel="stylesheet"> 
+    <title>OMF</title>
+    </head>
+
+    <body>
+        <header>
+           <a href="index.html"> 
+            <img src="images/ohmyfood.png" alt="logo oh my food" class="logo"></a>
+        </header>
+
+
+
+            <div class="paris">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Paris, Belleville</p>
+            </div>
+<section class="hero">
+            <div class="introduction">
+            <div class="introduction-body">
+                <h1>Réservez le menu qui vous convient</h1>
+                <h3>Découvrez des restaurants d'exception, séléctionnés par nos soins.</h3>
+                <button>Explorer nos restaurants</button>
+            </div>
+             </div>
+            
+       
+
+        <div class="steps">
+            <h2>Fonctionnement</h2>
+           <ul class="ul-steps">
+               <li>
+                   <span>1</span>
+                   <i class="fa-solid fa-mobile-button"></i>
+                   <p>Choissisez un restaurant</p>
+               </li>
+                <li>
+                   <span>2</span>
+                   <i class="fa-solid fa-list"></i>
+                   <p>Composez votre menu</p>
+               </li>
+                <li>
+                   <span>3</span>
+                   <i class="fa-solid fa-store"></i>
+                   <p>Dégustez au restaurant</p>
+               </li>
+             </ul> 
+        </div>
+
+</section>
+
+
+        <section class="cards">   
+ <h2> Restaurants</h2>
+ <div class="restaurant-cards">
+        <div  class="restaurant">
+                <a href="gout.html">
+               <div class="image">
+                 <img src="images/palette-du-gout.jpg" alt="restaurant" class="img">
+                 <span class="new">Nouveau</span>
+                </div> 
+               <div class="cards-body">
+                    <p>La palette du goût <br><span class="dish">Menilmontant</span></p>
+                    <span class="heart"><i class="fa-regular fa-heart"></i></span>
+                </div>
+             </a>
+         </div>
+
+
+        <div  class="restaurant">  
+            <a href="enchantée.html">
+                 <img src="images/enchantée.jpg" alt="restaurant" class="img">
+                <span class="new">Nouveau</span>
+                <div class="cards-body">
+                    <p>La note enchantée <br><span class="dish"> Charonne</span></p>
+                   <span class="heart"><i class="fa-regular fa-heart"></i></span>
+                </div>
+             </a>
+        </div> 
+
+
+       <div class="restaurant"> 
+            <a href="french.html" >
+               <div class="image">
+                 <img src="images/française.jpg" alt="restaurant" class="img">
+                </div> 
+               <div class="cards-body">
+                    <p>A la française <br><span class="dish"> Cité Rouge</span></p>
+                  <span class="heart"><i class="fa-regular fa-heart"></i></span>
+                </div>
+             </a>
+        </div>
+
+
+        <div class="restaurant">
+            <a href="delice.html">
+               <div class="image">
+                 <img src="images/delice-des-sens.jpg" alt="restaurant" class="img">
+                </div> 
+               <div class="cards-body">
+                    <p>Le délice des sens  <br><span class="dish"> Folie-Méricourt</span></p>
+                   <span class="heart"><i class="fa-regular fa-heart"></i></span>
+                </div>
+             </a>
+        </div>
+  </div>          
+        </section>
+
+
+       <footer>
+
+       <h3>OhMyFood</h3>
+       
+       <div class="list-1">
+          <div class="footer-mentions">
+          <i class="fa fa-utensils"></i>
+           <p>Proposer un restaurant</p>
+           </div>
+           <div class="footer-mentions">
+           <i class="fa fa-handshake-angle"></i>
+           <p>Devenir partenaire</p>
+           </div>
+        </div>
+
+        <div class="list-2">
+           <p>Mentions légales</p>
+           <p>Contact</p>
+       </div> 
+           
+
+       </footer> 
+
+<div class="loader-container fade-out">
+    <img src="images/loader.gif" alt="loader spinner food content">
+
+</div>
+
+
+<script>
+
+
+    function loader(){
+        document.querySelector(".loader-container").classList.add("fade-out");
+    }
+    function fadeOut(){
+        setInterval(loader,2000);
+    }
+
+window.onload = fadeOut;
+
+</script>
+
+
+
+
+
+    </body>
