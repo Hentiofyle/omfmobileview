@@ -421,9 +421,6 @@ div.list-1 > div > i.fa {
 
 /*FRENCH*/ 
 
-
-
-
 @keyframes dish {
   from {
     opacity: 0;
@@ -446,8 +443,14 @@ div.list-1 > div > i.fa {
   bottom: 18px;
 }
 
-img.logo{
-  width: 70%;
+.logo {
+  max-width: 75%;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  justify-content:center;
+  align-item:center;
+  align-content:center;
 }
 
 a{
